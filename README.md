@@ -69,5 +69,5 @@ webView.loadUrl("https://github.com/asLody/legend/issues");
 
 > [Lody][3]
 
-[2]: http://45.78.8.140:8888/kodexplorer-23936/data/User/lody/home/image/legend_logo.png
+[2]: https://raw.githubusercontent.com/asLody/legend/master/art/legend_logo.png
 [3]: https://github.com/asLody
