@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Legend</string>
+    <string name="click_me">Click me!</string>
+    <string name="show_a_toast">show a toast</string>
+    <string name="enable_toast">Enable Toast</string>
+    <string name="allow_launch_activity">allow launch Activity</string>
+    <string name="start_activity">startActivity()</string>
+</resources>
