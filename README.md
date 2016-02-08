@@ -16,7 +16,7 @@ Legend is a **Hook framework** for **Android Development**, it allows you to Hoo
 - Do some exciting things...
 
 
-### 3. How to use
+### 2. How to use
 Example 1: **Annotation** type Hook
 ```java
 @Hook("android.widget.Toast::show")
