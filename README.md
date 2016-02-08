@@ -59,10 +59,12 @@ HookManager.getDefault().hookMethod(originMethod, hookMethod);
 
 ### 4. Help improve Legend
 ```java
-If (Country.China == your.country){
-QQGroup.join(530497973);
-}else {
-webView.loadUrl("https://github.com/asLody/legend/issues");
+If (Country.China == your.country) {
+  QQGroup.join(530497973);
+} 
+else {
+
+  webView.loadUrl("https://github.com/asLody/legend/issues");
 }
 ```
 ### 5. Author
