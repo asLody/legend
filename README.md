@@ -63,7 +63,6 @@ If (Country.China == your.country) {
   QQGroup.join(530497973);
 } 
 else {
-
   webView.loadUrl("https://github.com/asLody/legend/issues");
 }
 ```
