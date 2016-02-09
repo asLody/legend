@@ -21,26 +21,26 @@ Example 1: **Annotation** type Hook
 ```java
 @Hook("android.widget.Toast::show")
 public static void Toast_show(Toast thiz) {
-toast.setText("XXXXXXXXX");
-//Call the origin method
-HookManager.getDefault().callSuper(thiz);
+  thiz.setText("XXXXXXXXX");
+  //Call the origin method
+  HookManager.getDefault().callSuper(thiz);
 }
 ```
 Example 2: **Interception** of startActivity
 ```java
 @Hook("android.app.Activity::startActivity@android.content.Intent")
 public static void Activity_startActivity(Activity thiz, Intent intent) {
-if (!ALLOW_LAUNCH_ACTIVITY) {
-Toast.makeText(thiz, "I am sorry to turn your Activity down :)", Toast.LENGTH_SHORT).show();
-}else {
-HookManager.getDefault().callSuper(thiz, intent);
+  if (!ALLOW_LAUNCH_ACTIVITY) {
+    Toast.makeText(thiz, "I am sorry to turn your Activity down :)", Toast.LENGTH_SHORT).show();
+  }else {
+    HookManager.getDefault().callSuper(thiz, intent);
 }
 }
 ```
 #### Notice:
 - Write the following code down in where you want to your hooks **enable**.
 ```java
-HookManager.getDefault()..applyHooks(YourClass.class);
+HookManager.getDefault().applyHooks(YourClass.class);
 ```
 - You can also hook a method **without annotation**.
 ```java
