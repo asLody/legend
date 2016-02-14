@@ -6,6 +6,7 @@
 
 Legend is a **Hook framework** for **Android Development**, it allows you to Hook Java methods **without** ROOT. Even more exciting is that it supports both **Dalvik and Art** environment!
 
+<https://github.com/asLody/legend>
 
 ### 1. What is the good
 - Programming more **efficient**
