@@ -39,10 +39,12 @@ public static void Activity_startActivity(Activity thiz, Intent intent) {
 ```
 #### Notice:
 - Write the following code down in where you want to your hooks **enable**.
+
 ```java
 HookManager.getDefault().applyHooks(YourClass.class);
 ```
 - You can also hook a method **without annotation**.
+
 ```java
 HookManager.getDefault().hookMethod(originMethod, hookMethod);
 ```

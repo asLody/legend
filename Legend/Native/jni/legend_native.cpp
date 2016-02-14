@@ -53,7 +53,7 @@ jlong getObjectAddress(JNIEnv * env, jclass clazz, jobject object) {
 }
 
 void android_memcpy(JNIEnv * env, jclass clazz, jlong dest, jlong src, jint size) {
-    memcmp((const void *)dest, (const void *)src, (size_t)size);
+    memcpy((void *)dest, (void *)src, (size_t)size);
 }
 
 void android_memput(JNIEnv * env, jclass clazz, jlong dest, jbyteArray src) {
