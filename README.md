@@ -60,7 +60,10 @@ HookManager.getDefault().hookMethod(originMethod, hookMethod);
 - [x] Art & Android 6.0.1
 - [ ] aliyunOS VM
 
-### 4. Help improve Legend
+### 4. Showcase
+<https://github.com/dodola/RocooFix>
+
+### 5. Help improve Legend
 ```java
 if (Country.China == your.country) {
   QQGroup.join(530497973);
@@ -68,7 +71,7 @@ if (Country.China == your.country) {
   webView.loadUrl("https://github.com/asLody/legend/issues");
 }
 ```
-### 5. Author
+### 6. Author
 
 > [Lody][3]
 
