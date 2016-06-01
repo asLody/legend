@@ -33,9 +33,9 @@ Example 2: **Interception** of startActivity
 public static void Activity_startActivity(Activity thiz, Intent intent) {
   if (!ALLOW_LAUNCH_ACTIVITY) {
     Toast.makeText(thiz, "I am sorry to turn your Activity down :)", Toast.LENGTH_SHORT).show();
-  }else {
+  } else {
     HookManager.getDefault().callSuper(thiz, intent);
-}
+  }
 }
 ```
 #### Notice:
@@ -62,10 +62,9 @@ HookManager.getDefault().hookMethod(originMethod, hookMethod);
 
 ### 4. Help improve Legend
 ```java
-If (Country.China == your.country) {
+if (Country.China == your.country) {
   QQGroup.join(530497973);
-} 
-else {
+} else {
   webView.loadUrl("https://github.com/asLody/legend/issues");
 }
 ```
