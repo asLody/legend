@@ -2,6 +2,10 @@
 --------
 ![logo][2]
 --------
+## Projects are out of date, plese move to:
+> (Whale Hook)[https://github.com/asLody/whale]
+
+
 ## What is Legend?
 
 Legend is a **Hook framework** for **Android Development**, it allows you to Hook Java methods **without** ROOT. Even more exciting is that it supports both **Dalvik and Art** environment!
