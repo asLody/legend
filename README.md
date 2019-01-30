@@ -3,7 +3,8 @@
 ![logo][2]
 --------
 ## Projects are out of date, plese move to:
-> (Whale Hook)[https://github.com/asLody/whale]
+> [Whale Hook](https://github.com/asLody/whale)
+
 
 
 ## What is Legend?
