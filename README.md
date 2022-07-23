@@ -2,27 +2,27 @@
 --------
 ![logo][2]
 --------
-## Projects are out of date, plese move to:
+## Projects are out of date, please move to:
 > [Whale Hook](https://github.com/asLody/whale)
 
 
 
 ## What is Legend?
 
-Legend is a **Hook framework** for **Android Development**, it allows you to Hook Java methods **without** ROOT. Even more exciting is that it supports both **Dalvik and Art** environment!
+Legend is a **Hook framework** for **Android Development**, as it allows you to Hook Java methods **without** ROOT. Legend supports both **Dalvik and Art** environment!
 
 <https://github.com/asLody/legend>
 
-### 1. What is the good
+### 1. The Advantages
 - Programming more **efficient**
 - Dynamic debugging
-- **HotFix** and needn't reboot app
+- **HotFix** and doesn't need to reboot the app
 - Fast **dump** Dex File in the shell
 - Software security penetration
-- Do some exciting things...
+- Does exciting things...
 
 
-### 2. How to use
+### 2. How to use Legend
 Example 1: **Annotation** type Hook
 ```java
 @Hook("android.widget.Toast::show")
@@ -44,7 +44,7 @@ public static void Activity_startActivity(Activity thiz, Intent intent) {
 }
 ```
 #### Notice:
-- Write the following code down in where you want to your hooks **enable**.
+- Write the following code down in where you want your hooks **enabled**.
 
 ```java
 HookManager.getDefault().applyHooks(YourClass.class);
@@ -55,7 +55,7 @@ HookManager.getDefault().applyHooks(YourClass.class);
 HookManager.getDefault().hookMethod(originMethod, hookMethod);
 ```
 
-### 3. Compatibility
+### 3. Software Compatibility
 - [x] Dalvik & Android 4.2
 - [x] Dalvik & Android 4.3
 - [x] Art & Android 5.0
