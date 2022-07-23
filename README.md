@@ -14,7 +14,7 @@ Legend is a **Hook framework** for **Android Development**, as it allows you to 
 <https://github.com/asLody/legend>
 
 ### 1. The Advantages
-- Programming more **efficient**
+- Program more **efficiently**
 - Dynamic debugging
 - **HotFix** and doesn't need to reboot the app
 - Fast **dump** Dex File in the shell
